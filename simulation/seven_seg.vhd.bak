@@ -1,0 +1,69 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity seven_seg is
+	port
+	(
+		neg_ena			: std_logic;
+		neg_in_ena		: std_logic;
+		inputBCD  		: in std_logic_vector(3 downto 0); 
+		outputHEX 		: out std_logic_vector(7 downto 0)
+	);
+end seven_seg;
+
+architecture behav of seven_seg is
+
+	signal input_temp : std_logic_vector(3 downto 0);
+	
+begin
+
+	process(neg_ena)
+	begin
+		if neg_ena = '1' then
+			input_temp <= "1111";
+		else
+			input_temp <= inputBCD;
+		end if;
+	end process;
+
+	process(neg_in_ena)
+	begin
+		if neg_in_ena = '1' then
+			input_temp <= "1111";
+		else
+			input_temp <= inputBCD;
+		end if;
+	end process;
+										 
+	process(inputBCD, neg_ena, neg_in_ena, input_temp)
+	begin
+		if neg_ena = '1' then
+			input_temp <= "1111";
+		else
+			input_temp <= inputBCD;
+		end if;
+		
+		if neg_in_ena <= '1' then
+			input_temp <= "1110";
+		else
+			input_temp <= inputBCD;
+		end if;
+		
+			case input_temp is
+				when "0000" => outputHEX <= "11000000"; --0
+				when "0001" => outputHEX <= "11111001"; --1
+				when "0010" => outputHEX <= "10100100"; --2
+				when "0011" => outputHEX <= "10110000"; --3
+				when "0100" => outputHEX <= "10011001"; --4
+				when "0101" => outputHEX <= "10010010"; --5
+				when "0110" => outputHEX <= "10000010"; --6
+				when "0111" => outputHEX <= "11111000"; --7
+				when "1000" => outputHEX <= "10000000"; --8
+				when "1001" => outputHEX <= "10010000"; --9
+				when "1110" => outputHEX <= "00000000";
+				when "1111" => outputHEX <= "10111111";
+				when others => outputHEX <= "11111111";
+			end case;
+	end process;	
+	
+end behav;

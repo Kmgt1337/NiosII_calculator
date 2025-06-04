@@ -1,0 +1,51 @@
+C:/Users/Lenovo/Documents/calc/simulation/converter_2s_to_unsigned.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lenovo/Documents/calc/simulation/converter_2s_to_unsigned.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity converter_2s_to_unsigned
+-- Compiling architecture Behavioral of converter_2s_to_unsigned
+
+} {} {}} C:/Users/Lenovo/Documents/calc/simulation/seven_seg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lenovo/Documents/calc/simulation/seven_seg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity seven_seg
+-- Compiling architecture behav of seven_seg
+
+} {} {}} C:/Users/Lenovo/Documents/calc/simulation/seven_segments_contrl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lenovo/Documents/calc/simulation/seven_segments_contrl.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity seven_segments_contrl
+-- Compiling architecture behavior of seven_segments_contrl
+
+} {} {}} C:/Users/Lenovo/Documents/calc/simulation/converter_2s_to_unsigned_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lenovo/Documents/calc/simulation/converter_2s_to_unsigned_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity converter_2s_to_unsigned_tb
+-- Compiling architecture Simulation of converter_2s_to_unsigned_tb
+
+} {} {}} C:/Users/Lenovo/Documents/calc/simulation/seven_seg_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lenovo/Documents/calc/simulation/seven_seg_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity seven_seg_tb
+-- Compiling architecture Simulation of seven_seg_tb
+
+} {} {}} C:/Users/Lenovo/Documents/calc/simulation/seven_segments_contrl_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lenovo/Documents/calc/simulation/seven_segments_contrl_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity seven_segments_contrl_tb
+-- Compiling architecture simulation of seven_segments_contrl_tb
+
+} {} {}}

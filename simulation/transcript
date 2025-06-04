@@ -1,0 +1,55 @@
+vsim -gui work.converter_2s_to_unsigned_tb
+# vsim -gui work.converter_2s_to_unsigned_tb 
+# Start time: 03:54:19 on Jun 04,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.converter_2s_to_unsigned_tb(simulation)
+# Loading ieee.numeric_std(body)
+# Loading work.converter_2s_to_unsigned(behavioral)
+restart
+run
+quit -sim
+# End time: 15:29:09 on Jun 04,2025, Elapsed time: 11:34:50
+# Errors: 0, Warnings: 2
+# Compile of seven_seg.vhd was successful.
+# Compile of seven_segments_contrl.vhd was successful.
+# Compile of seven_segments_contrl_tb.vhd was successful.
+# Compile of converter_2s_to_unsigned.vhd was successful.
+# Compile of converter_2s_to_unsigned_tb.vhd was successful.
+# Compile of seven_seg_tb.vhd failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Compile of seven_seg_tb.vhd was successful.
+vsim -gui work.seven_seg_tb
+# vsim -gui work.seven_seg_tb 
+# Start time: 15:34:21 on Jun 04,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.seven_seg_tb(simulation)
+# Loading work.seven_seg(behav)
+run
+add wave -position end  sim:/seven_seg_tb/uut/input_temp
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: Nie mo¿na odnaleŸæ okreœlonego modu³u.
+# 
+# 
+quit -sim
+# End time: 15:37:21 on Jun 04,2025, Elapsed time: 0:03:00
+# Errors: 0, Warnings: 1
+# Compile of seven_seg.vhd was successful.
+# Compile of seven_seg.vhd was successful.
+vsim -gui work.seven_seg_tb
+# vsim -gui work.seven_seg_tb 
+# Start time: 15:40:14 on Jun 04,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.seven_seg_tb(simulation)
+# Loading work.seven_seg(behav)
+run
+quit -sim
+# End time: 15:41:40 on Jun 04,2025, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 3

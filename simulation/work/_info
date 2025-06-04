@@ -1,0 +1,261 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Lenovo/Documents/v_example
+Econverter_2s_to_unsigned
+Z0 w1749001960
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 152
+Z4 dC:/Users/Lenovo/Documents/calc/simulation
+Z5 8C:/Users/Lenovo/Documents/calc/simulation/converter_2s_to_unsigned.vhd
+Z6 FC:/Users/Lenovo/Documents/calc/simulation/converter_2s_to_unsigned.vhd
+l0
+L5 1
+VES79i=V<1D7Q]nn>BG?j]3
+!s100 21f3Wo2jabJk59;L8=Z`O1
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1749044011
+!i10b 1
+Z9 !s108 1749044011.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lenovo/Documents/calc/simulation/converter_2s_to_unsigned.vhd|
+Z11 !s107 C:/Users/Lenovo/Documents/calc/simulation/converter_2s_to_unsigned.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+DEx4 work 24 converter_2s_to_unsigned 0 22 ES79i=V<1D7Q]nn>BG?j]3
+!i122 152
+l20
+L15 38
+V>g_`gPbLYK8UY3:B6;K:M1
+!s100 ^]LJM3zc3h]nfeaSOSR9c2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Econverter_2s_to_unsigned_tb
+Z14 w1749001831
+R2
+R3
+!i122 153
+R4
+Z15 8C:/Users/Lenovo/Documents/calc/simulation/converter_2s_to_unsigned_tb.vhd
+Z16 FC:/Users/Lenovo/Documents/calc/simulation/converter_2s_to_unsigned_tb.vhd
+l0
+L4 1
+VkkoCiZ3Ez<R9]WMZV74ig0
+!s100 0eP^j5an<XJf:ONnHX=UG0
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lenovo/Documents/calc/simulation/converter_2s_to_unsigned_tb.vhd|
+Z18 !s107 C:/Users/Lenovo/Documents/calc/simulation/converter_2s_to_unsigned_tb.vhd|
+!i113 1
+R12
+R13
+Asimulation
+R2
+R3
+DEx4 work 27 converter_2s_to_unsigned_tb 0 22 kkoCiZ3Ez<R9]WMZV74ig0
+!i122 153
+l22
+L7 31
+V[YZ^6BB6G==eahcZ1YF0[1
+!s100 mSo5`HnA5B5magaM9X>Un1
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Eseven_seg
+Z19 w1749044399
+R2
+R3
+!i122 157
+R4
+Z20 8C:/Users/Lenovo/Documents/calc/simulation/seven_seg.vhd
+Z21 FC:/Users/Lenovo/Documents/calc/simulation/seven_seg.vhd
+l0
+L4 1
+V7>KL=H=Z?EZe_kUD?W5JS3
+!s100 4RS>:119jfoZWebWPhGR_1
+R7
+32
+Z22 !s110 1749044404
+!i10b 1
+Z23 !s108 1749044404.000000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lenovo/Documents/calc/simulation/seven_seg.vhd|
+Z25 !s107 C:/Users/Lenovo/Documents/calc/simulation/seven_seg.vhd|
+!i113 1
+R12
+R13
+Abehav
+R2
+R3
+Z26 DEx4 work 9 seven_seg 0 22 7>KL=H=Z?EZe_kUD?W5JS3
+!i122 157
+l18
+L14 44
+VfA=5OKX^CV^HEhM[40a``2
+!s100 2Wf=bG3OelJB5:V_m:;=@3
+R7
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R12
+R13
+Eseven_seg_tb
+Z27 w1749044024
+R2
+R3
+!i122 155
+R4
+Z28 8C:/Users/Lenovo/Documents/calc/simulation/seven_seg_tb.vhd
+Z29 FC:/Users/Lenovo/Documents/calc/simulation/seven_seg_tb.vhd
+l0
+L4 1
+VZ6Kj5=CUCF]a;PKodmP^e2
+!s100 ^da1zW?[o6731=;?`PBY?2
+R7
+32
+Z30 !s110 1749044028
+!i10b 1
+Z31 !s108 1749044028.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lenovo/Documents/calc/simulation/seven_seg_tb.vhd|
+Z33 !s107 C:/Users/Lenovo/Documents/calc/simulation/seven_seg_tb.vhd|
+!i113 1
+R12
+R13
+Asimulation
+R2
+R3
+DEx4 work 12 seven_seg_tb 0 22 Z6Kj5=CUCF]a;PKodmP^e2
+!i122 155
+l23
+L7 38
+VAbSzGYWWKf`R^n`o_6aS;3
+!s100 2dWJ[_?EC2>fVj3zh50Kl0
+R7
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R12
+R13
+Eseven_segments_contrl
+Z34 w1748790331
+R1
+R2
+R3
+!i122 150
+R4
+Z35 8C:/Users/Lenovo/Documents/calc/simulation/seven_segments_contrl.vhd
+Z36 FC:/Users/Lenovo/Documents/calc/simulation/seven_segments_contrl.vhd
+l0
+L5 1
+VaEJWTg_iIlaARnYzlIGZV1
+!s100 Fodz:NGZ`a2IaRaKM>KPe1
+R7
+32
+Z37 !s110 1749044010
+!i10b 1
+Z38 !s108 1749044009.000000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lenovo/Documents/calc/simulation/seven_segments_contrl.vhd|
+Z40 !s107 C:/Users/Lenovo/Documents/calc/simulation/seven_segments_contrl.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+DEx4 work 21 seven_segments_contrl 0 22 aEJWTg_iIlaARnYzlIGZV1
+!i122 150
+l37
+L22 80
+VHNnUL_]n`Io8_T9:K17eT0
+!s100 jHLHZT7V<S4nP=klBPFIg3
+R7
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R12
+R13
+Eseven_segments_contrl_tb
+Z41 w1748791576
+R2
+R3
+!i122 151
+R4
+Z42 8C:/Users/Lenovo/Documents/calc/simulation/seven_segments_contrl_tb.vhd
+Z43 FC:/Users/Lenovo/Documents/calc/simulation/seven_segments_contrl_tb.vhd
+l0
+L4 1
+Vg7E^dE98FfEHeOnO7gKCc0
+!s100 RRm3iQUOA`IDlocSlHiEJ3
+R7
+32
+R37
+!i10b 1
+Z44 !s108 1749044010.000000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lenovo/Documents/calc/simulation/seven_segments_contrl_tb.vhd|
+Z46 !s107 C:/Users/Lenovo/Documents/calc/simulation/seven_segments_contrl_tb.vhd|
+!i113 1
+R12
+R13
+Asimulation
+R2
+R3
+DEx4 work 24 seven_segments_contrl_tb 0 22 g7E^dE98FfEHeOnO7gKCc0
+!i122 151
+l31
+L7 62
+VYD>BPQfBQMh0>;@978FEg2
+!s100 1FC`;_SLbjz5zJ`A]:PeD0
+R7
+32
+R37
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R12
+R13
