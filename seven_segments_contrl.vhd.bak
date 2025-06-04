@@ -1,0 +1,20 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity seven_segments_contrl is
+	port
+	(
+		clk 			: in std_logic;
+		reset 		: in std_logic;
+		neg_in_ena 	: in std_logic;
+		neg_ena		: in std_logic;
+		number		: in std_logic_vector(10 downto 0);
+		hex0			: out std_logic_vector(7 downto 0);
+		hex1			: out std_logic_vector(7 downto 0);
+		hex2			: out std_logic_vector(7 downto 0);
+		hex3			: out std_logic_vector(7 downto 0);
+		hex4			: out std_logic_vector(7 downto 0);
+		hex5			: out std_logic_vector(7 downto 0)
+	);
+end entity;
+		

@@ -1,0 +1,26 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity converter_2s_to_unsigned is
+	port
+	(
+		clk					: in std_logic;
+		reset					: in std_logic;
+		number 				: in std_logic_vector(10 downto 0);
+		unsigned_number 	: out std_logic_vector(10 downto 0)
+	);
+end entity;
+
+architecture Behavioral of converter_2s_to_unsigned is
+
+begin
+	process(clk, reset)
+	begin
+		if reset = '0' then
+			unsigned_number <= (others => '0');
+		elsif rising_edge(clk) then
+			number <= not number;
+			number <= number + '1';
+			unsigned_number <= number;
+		end process;
+end architecture;
