@@ -1,0 +1,118 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\Lenovo\Documents\calc\nios2.qsys --block-symbol-file --output-directory=C:\Users\Lenovo\Documents\calc\nios2 --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading calc/nios2.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 22.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 22.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 22.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 22.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding onchip_memory2_1 [altera_avalon_onchip_memory2 22.1]
+Progress: Parameterizing module onchip_memory2_1
+Progress: Adding pio_0 [altera_avalon_pio 22.1]
+Progress: Parameterizing module pio_0
+Progress: Adding pio_1 [altera_avalon_pio 22.1]
+Progress: Parameterizing module pio_1
+Progress: Adding timer_0 [altera_avalon_timer 22.1]
+Progress: Parameterizing module timer_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios2.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: nios2.pio_0: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\Lenovo\Documents\calc\nios2.qsys --synthesis=VHDL --output-directory=C:\Users\Lenovo\Documents\calc\nios2\synthesis --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading calc/nios2.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 22.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 22.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 22.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 22.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding onchip_memory2_1 [altera_avalon_onchip_memory2 22.1]
+Progress: Parameterizing module onchip_memory2_1
+Progress: Adding pio_0 [altera_avalon_pio 22.1]
+Progress: Parameterizing module pio_0
+Progress: Adding pio_1 [altera_avalon_pio 22.1]
+Progress: Parameterizing module pio_1
+Progress: Adding timer_0 [altera_avalon_timer 22.1]
+Progress: Parameterizing module timer_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios2.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: nios2.pio_0: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: nios2: Generating nios2 "nios2" for QUARTUS_SYNTH
+Info: jtag_uart_0: Starting RTL generation for module 'nios2_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=nios2_jtag_uart_0 --dir=C:/Users/Lenovo/AppData/Local/Temp/alt0242_1973409110373899915.dir/0002_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --verilog --config=C:/Users/Lenovo/AppData/Local/Temp/alt0242_1973409110373899915.dir/0002_jtag_uart_0_gen//nios2_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'nios2_jtag_uart_0'
+Info: jtag_uart_0: "nios2" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: nios2_gen2_0: "nios2" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'nios2_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios2_onchip_memory2_0 --dir=C:/Users/Lenovo/AppData/Local/Temp/alt0242_1973409110373899915.dir/0003_onchip_memory2_0_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --verilog --config=C:/Users/Lenovo/AppData/Local/Temp/alt0242_1973409110373899915.dir/0003_onchip_memory2_0_gen//nios2_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'nios2_onchip_memory2_0'
+Info: onchip_memory2_0: "nios2" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: onchip_memory2_1: Starting RTL generation for module 'nios2_onchip_memory2_1'
+Info: onchip_memory2_1:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios2_onchip_memory2_1 --dir=C:/Users/Lenovo/AppData/Local/Temp/alt0242_1973409110373899915.dir/0004_onchip_memory2_1_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --verilog --config=C:/Users/Lenovo/AppData/Local/Temp/alt0242_1973409110373899915.dir/0004_onchip_memory2_1_gen//nios2_onchip_memory2_1_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_1: Done RTL generation for module 'nios2_onchip_memory2_1'
+Info: onchip_memory2_1: "nios2" instantiated altera_avalon_onchip_memory2 "onchip_memory2_1"
+Info: pio_0: Starting RTL generation for module 'nios2_pio_0'
+Info: pio_0:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios2_pio_0 --dir=C:/Users/Lenovo/AppData/Local/Temp/alt0242_1973409110373899915.dir/0005_pio_0_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --verilog --config=C:/Users/Lenovo/AppData/Local/Temp/alt0242_1973409110373899915.dir/0005_pio_0_gen//nios2_pio_0_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_0: Done RTL generation for module 'nios2_pio_0'
+Info: pio_0: "nios2" instantiated altera_avalon_pio "pio_0"
+Info: pio_1: Starting RTL generation for module 'nios2_pio_1'
+Info: pio_1:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios2_pio_1 --dir=C:/Users/Lenovo/AppData/Local/Temp/alt0242_1973409110373899915.dir/0006_pio_1_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --verilog --config=C:/Users/Lenovo/AppData/Local/Temp/alt0242_1973409110373899915.dir/0006_pio_1_gen//nios2_pio_1_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_1: Done RTL generation for module 'nios2_pio_1'
+Info: pio_1: "nios2" instantiated altera_avalon_pio "pio_1"
+Info: timer_0: Starting RTL generation for module 'nios2_timer_0'
+Info: timer_0:   Generation command is [exec C:/intelFPGA_lite/22.1std/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/22.1std/quartus/bin64//perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=nios2_timer_0 --dir=C:/Users/Lenovo/AppData/Local/Temp/alt0242_1973409110373899915.dir/0007_timer_0_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --verilog --config=C:/Users/Lenovo/AppData/Local/Temp/alt0242_1973409110373899915.dir/0007_timer_0_gen//nios2_timer_0_component_configuration.pl  --do_build_sim=0  ]
+Info: timer_0: Done RTL generation for module 'nios2_timer_0'
+Info: timer_0: "nios2" instantiated altera_avalon_timer "timer_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "nios2" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "nios2" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "nios2" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'nios2_nios2_gen2_0_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/22.1std/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/22.1std/quartus/bin64//perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.pl --name=nios2_nios2_gen2_0_cpu --dir=C:/Users/Lenovo/AppData/Local/Temp/alt0242_1973409110373899915.dir/0010_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/22.1std/quartus/bin64/ --verilog --config=C:/Users/Lenovo/AppData/Local/Temp/alt0242_1973409110373899915.dir/0010_cpu_gen//nios2_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2025.06.03 10:31:08 (*) Starting Nios II generation
+Info: cpu: # 2025.06.03 10:31:08 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2025.06.03 10:31:08 (*)   Creating all objects for CPU
+Info: cpu: # 2025.06.03 10:31:09 (*)   Generating RTL from CPU objects
+Info: cpu: # 2025.06.03 10:31:09 (*)   Creating plain-text RTL
+Info: cpu: # 2025.06.03 10:31:10 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'nios2_nios2_gen2_0_cpu'
+Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info: jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info: nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/Lenovo/Documents/calc/nios2/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: nios2: Done "nios2" with 25 modules, 39 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
